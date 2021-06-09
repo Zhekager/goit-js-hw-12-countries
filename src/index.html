@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="eu">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Country search</title>
     <link
@@ -14,11 +15,20 @@
 
   <body>
     <h1 class="title">Which country would you like to visit in 2021?</h1>
-    <input class="input-search" type="search" name="country" placeholder="Enter a country name" />
+    <label>
+    <input 
+    class="countryInput"
+    type="text"
+    name="user-name"
+    data="countryName"
+    placeholder="Enter country name"
+      />
+</label>
+    <div data="countryList"></div>
 
-    <div class="js-card-container"></div>
-
-    <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
+   
     <script src="./index.js"></script>
   </body>
 </html>
+
+
