@@ -1,10 +1,12 @@
 
-const URL = 'https://restcountries.eu/rest/v2/';
-export default function fethCountry(countryName) {
-  return fetch(`${URL}name/${countryName}`).then(response => {
-    if (!response.ok) {
-      throw response;
-    }
-    return response.json();
-  });
+export default function fetchCountries(name) {
+  return fetch(`https://restcountries.eu/rest/v2/name/${name}`)
+      .then((response) => {
+          if (response.ok) {
+              return response.json();
+          } else {
+             alert("Ошибка HTTP: " + response.status);
+          }
+      })
+     
 }

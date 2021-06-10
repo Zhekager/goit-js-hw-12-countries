@@ -4,9 +4,9 @@ body {
   font-family: 'Roboto', monospace;
   font-size: 30px;
   font-weight: 400;
-  color: rgb(9, 48, 156);
+  color: rgb(5, 48, 168);
   text-align: center;
-  text-shadow: 1px 1px 2px rgb(141, 129, 129);
+  text-shadow: 1px 1px 2px rgb(139, 31, 202);
 
   background-image: url('../images/countries.jpg');
   background-size: cover;
@@ -28,7 +28,7 @@ ul{
   width: 400px;
 }
 .countryInput::placeholder {
-  color: rgb(155, 155, 155);
+  color: rgba(53, 155, 79, 0.445);
 }
 .countryTitle {
   margin-top: 40px;
@@ -61,4 +61,14 @@ ul{
 }
 .countryContent__image {
   margin-left: 40px;
+}
+
+
+
+.title {
+  margin: 0 0 10px 0;
+  color: rgb(97, 160, 15);
+  font-size: 50px;
+  font-weight: 900;
+  font-style: normal;
 }
