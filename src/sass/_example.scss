@@ -1,13 +1,7 @@
 body {
   margin: 0;
-  padding: 10px;
-  font-family: 'Roboto', monospace;
-  font-size: 30px;
-  font-weight: 400;
-  color: rgb(5, 48, 168);
+  padding: 10px; 
   text-align: center;
-  text-shadow: 1px 1px 2px rgb(139, 31, 202);
-
   background-image: url('../images/countries.jpg');
   background-size: cover;
  
@@ -63,7 +57,13 @@ ul{
   margin-left: 40px;
 }
 
-
+.js-countries{
+  color: rgb(5, 48, 168);
+  font-family: 'Roboto', monospace;
+  font-size: 30px;
+  font-weight: 400;
+  text-shadow: 1px 1px 2px rgb(139, 31, 202);
+}
 
 .title {
   margin: 0 0 10px 0;
@@ -71,4 +71,15 @@ ul{
   font-size: 50px;
   font-weight: 900;
   font-style: normal;
+}
+
+.pnotify{
+  
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-size: 20px;
+  background: linear-gradient(31deg, rgba(219,151,151,1) 13%, rgba(150,22,22,1) 13%, rgba(150,22,22,1) 23%, rgba(219,151,151,1) 23%, rgba(219,151,151,1) 31%, rgba(150,22,22,1) 31%, rgba(150,22,22,1) 40%, rgba(219,151,151,1) 40%, rgba(219,151,151,1) 49%, rgba(150,22,22,1) 49%, rgba(150,22,22,1) 58%, rgba(219,151,151,1) 58%, rgba(219,151,151,1) 67%, rgba(150,22,22,1) 67%, rgba(150,22,22,1) 76%, rgba(219,151,151,1) 76%, rgba(219,151,151,1) 85%, rgba(150,22,22,1) 85%, rgba(150,22,22,1) 94%, rgba(219,151,151,1) 94%);
+  width: 370px;
+  height: 53px;
+  
 }
